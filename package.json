@@ -1,0 +1,18 @@
+{
+  "name": "careerai-monorepo",
+  "version": "1.0.0",
+  "description": "CareerAI - AI Career & Technical Interview Intelligence Platform",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "start:backend": "npm --prefix backend start",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "careerai",
+    "mern",
+    "ai-interview"
+  ],
+  "author": "CareerAI Team",
+  "license": "ISC"
+}
