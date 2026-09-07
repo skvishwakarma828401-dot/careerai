@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "CareerAI - AI Career & Technical Interview Intelligence Platform",
   "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "build:frontend": "npm --prefix frontend run build",
     "dev:backend": "npm --prefix backend run dev",
     "start:backend": "npm --prefix backend start",
-    "dev:frontend": "npm --prefix frontend run dev",
-    "build:frontend": "npm --prefix frontend run build"
+    "dev:frontend": "npm --prefix frontend run dev"
   },
   "keywords": [
     "careerai",
